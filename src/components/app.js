@@ -4,7 +4,9 @@ import { Component } from 'react';
 export default class App extends Component {
   render() {
     return (
-      <div>React simple starter</div>
+      <div className="container p-y-1">
+        {this.props.children}
+      </div>
     );
   }
 }
